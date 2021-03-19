@@ -21,6 +21,7 @@
 		F63F8DAE26043C68001CB491 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8DAD26043C68001CB491 /* LoginViewController.swift */; };
 		F63F8DB326043C77001CB491 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8DB226043C77001CB491 /* FeedViewController.swift */; };
 		F63F8DB826044369001CB491 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8DB726044369001CB491 /* CameraViewController.swift */; };
+		F63F8DBD260458FB001CB491 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8DBC260458FB001CB491 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F63F8DAD26043C68001CB491 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F63F8DB226043C77001CB491 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F63F8DB726044369001CB491 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F63F8DBC260458FB001CB491 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				F63F8DAD26043C68001CB491 /* LoginViewController.swift */,
 				F63F8DB226043C77001CB491 /* FeedViewController.swift */,
 				F63F8DB726044369001CB491 /* CameraViewController.swift */,
+				F63F8DBC260458FB001CB491 /* PostCell.swift */,
 			);
 			path = parstagram;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63F8DBD260458FB001CB491 /* PostCell.swift in Sources */,
 				F63F8DAE26043C68001CB491 /* LoginViewController.swift in Sources */,
 				F63F8D6926042FB9001CB491 /* parstagram.xcdatamodeld in Sources */,
 				F63F8DB326043C77001CB491 /* FeedViewController.swift in Sources */,
