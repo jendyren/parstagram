@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,13 +12,15 @@
 		417396C1719E244E79B588B6 /* Pods_parstagram_parstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6B232BC074896B735DCB07 /* Pods_parstagram_parstagramUITests.framework */; };
 		F63F8D5F26042FB9001CB491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8D5E26042FB9001CB491 /* AppDelegate.swift */; };
 		F63F8D6126042FB9001CB491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8D6026042FB9001CB491 /* SceneDelegate.swift */; };
-		F63F8D6326042FB9001CB491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8D6226042FB9001CB491 /* ViewController.swift */; };
 		F63F8D6626042FB9001CB491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63F8D6426042FB9001CB491 /* Main.storyboard */; };
 		F63F8D6926042FB9001CB491 /* parstagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F63F8D6726042FB9001CB491 /* parstagram.xcdatamodeld */; };
 		F63F8D6B26042FBF001CB491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63F8D6A26042FBF001CB491 /* Assets.xcassets */; };
 		F63F8D6E26042FBF001CB491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63F8D6C26042FBF001CB491 /* LaunchScreen.storyboard */; };
 		F63F8D7926042FBF001CB491 /* parstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8D7826042FBF001CB491 /* parstagramTests.swift */; };
 		F63F8D8426042FBF001CB491 /* parstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8D8326042FBF001CB491 /* parstagramUITests.swift */; };
+		F63F8DAE26043C68001CB491 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8DAD26043C68001CB491 /* LoginViewController.swift */; };
+		F63F8DB326043C77001CB491 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8DB226043C77001CB491 /* FeedViewController.swift */; };
+		F63F8DB826044369001CB491 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F8DB726044369001CB491 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +53,6 @@
 		F63F8D5B26042FB9001CB491 /* parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63F8D5E26042FB9001CB491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F63F8D6026042FB9001CB491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F63F8D6226042FB9001CB491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F63F8D6526042FB9001CB491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F63F8D6826042FB9001CB491 /* parstagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = parstagram.xcdatamodel; sourceTree = "<group>"; };
 		F63F8D6A26042FBF001CB491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +64,9 @@
 		F63F8D7F26042FBF001CB491 /* parstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63F8D8326042FBF001CB491 /* parstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parstagramUITests.swift; sourceTree = "<group>"; };
 		F63F8D8526042FBF001CB491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63F8DAD26043C68001CB491 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F63F8DB226043C77001CB491 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F63F8DB726044369001CB491 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +117,6 @@
 				AD92FCECE83F29550D3232A8 /* Pods-parstagramTests.debug.xcconfig */,
 				2B94250C6BD7F8108087F637 /* Pods-parstagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,12 +147,14 @@
 			children = (
 				F63F8D5E26042FB9001CB491 /* AppDelegate.swift */,
 				F63F8D6026042FB9001CB491 /* SceneDelegate.swift */,
-				F63F8D6226042FB9001CB491 /* ViewController.swift */,
 				F63F8D6426042FB9001CB491 /* Main.storyboard */,
 				F63F8D6A26042FBF001CB491 /* Assets.xcassets */,
 				F63F8D6C26042FBF001CB491 /* LaunchScreen.storyboard */,
 				F63F8D6F26042FBF001CB491 /* Info.plist */,
 				F63F8D6726042FB9001CB491 /* parstagram.xcdatamodeld */,
+				F63F8DAD26043C68001CB491 /* LoginViewController.swift */,
+				F63F8DB226043C77001CB491 /* FeedViewController.swift */,
+				F63F8DB726044369001CB491 /* CameraViewController.swift */,
 			);
 			path = parstagram;
 			sourceTree = "<group>";
@@ -410,10 +415,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63F8D6326042FB9001CB491 /* ViewController.swift in Sources */,
+				F63F8DAE26043C68001CB491 /* LoginViewController.swift in Sources */,
 				F63F8D6926042FB9001CB491 /* parstagram.xcdatamodeld in Sources */,
+				F63F8DB326043C77001CB491 /* FeedViewController.swift in Sources */,
 				F63F8D5F26042FB9001CB491 /* AppDelegate.swift in Sources */,
 				F63F8D6126042FB9001CB491 /* SceneDelegate.swift in Sources */,
+				F63F8DB826044369001CB491 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
